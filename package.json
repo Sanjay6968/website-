@@ -8,8 +8,9 @@
     "postbuild": "next-sitemap",
     "sitemap": "next-sitemap",
     "start": "yarn tinacms server:start -c \"next start\"",
-    "lint": "next lint"
+    "lint": "next lint",
     "codegen": "tina codegen"
+    
 
   },
   "dependencies": {
