@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "yarn tinacms server:start -c \"next dev\"",
-    "build": "yarn tinacms server:start -c \"next build\"",
+    "build": "build": "next build",
     "postbuild": "next-sitemap",
     "sitemap": "next-sitemap",
     "start": "yarn tinacms server:start -c \"next start\"",
