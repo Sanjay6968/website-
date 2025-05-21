@@ -10,7 +10,7 @@
     "sitemap": "next-sitemap",
     "start": "next start",
     "lint": "next lint",
-    "codegen": "npx tina codegen"
+    "codegen": "node ./node_modules/@tinacms/cli/bin/tina.js codegen"
   },
   "dependencies": {
     "@accessible/drawer": "^3.0.2",
@@ -18,7 +18,6 @@
     "@phntms/next-gtm": "^0.3.0",
     "@sendgrid/mail": "^7.7.0",
     "@svgr/webpack": "^8.0.0",
-    "@tinacms/cli": "^0.60.0",
     "@types/three": "^0.156.0",
     "css-in-js-media": "^2.0.1",
     "date-fns": "^2.29.3",
