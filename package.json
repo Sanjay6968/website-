@@ -9,6 +9,8 @@
     "sitemap": "next-sitemap",
     "start": "yarn tinacms server:start -c \"next start\"",
     "lint": "next lint"
+    "codegen": "tina codegen"
+
   },
   "dependencies": {
     "@accessible/drawer": "^3.0.2",
