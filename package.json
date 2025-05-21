@@ -8,7 +8,8 @@
     "postbuild": "next-sitemap",
     "sitemap": "next-sitemap",
     "start": "yarn tinacms server:start -c \"next start\"",
-    "lint": "next lint"
+    "lint": "next lint",
+    "analyze": "cross-env ANALYZE=true next build"
   },
   "dependencies": {
     "@accessible/drawer": "^3.0.2",
@@ -63,6 +64,7 @@
     "@typescript-eslint/parser": "^5.59.9",
     "all-contributors-cli": "^6.26.0",
     "copy-webpack-plugin": "^11.0.0",
+    "cross-env": "^7.0.3",
     "eslint": "^8.0.0",
     "eslint-config-next": "^13.4.19",
     "eslint-config-prettier": "^8.3.0",
