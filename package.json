@@ -3,15 +3,13 @@
   "version": "0.2.0",
   "private": true,
   "scripts": {
-    "dev": "yarn tinacms server:start -c \"next dev\"",
-    "build": "yarn tinacms server:start -c \"next build\"",
+    "dev": "next dev",
+    "build": "next build",
     "postbuild": "next-sitemap",
     "sitemap": "next-sitemap",
-    "start": "yarn tinacms server:start -c \"next start\"",
+    "start": "next start",
     "lint": "next lint",
     "codegen": "tina codegen"
-    
-
   },
   "dependencies": {
     "@accessible/drawer": "^3.0.2",
