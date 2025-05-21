@@ -3,8 +3,9 @@
   "version": "0.2.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "yarn codegen && next dev",
+    "build": "yarn codegen && next build",
+    "vercel-build": "yarn build",
     "postbuild": "next-sitemap",
     "sitemap": "next-sitemap",
     "start": "next start",
