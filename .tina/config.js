@@ -1,5 +1,6 @@
 module.exports = {
   branch: "main",
+  clientId: "98047762-ce0f-4653-bbbc-ae1fa20e4ff3",
   build: {
     outputFolder: "admin",
     publicFolder: "public",
